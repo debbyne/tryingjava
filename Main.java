@@ -5,5 +5,9 @@ public class Main {
       System.out.println(3 + 3);
       String name = "John";
       System.out.println(name);
+      int myInt = 9;
+      double myDouble = myInt;
+      System.out.println(myInt);
+      System.out.println(myDouble);
     }
 }
