@@ -9,20 +9,24 @@ public class Main {
       // double myDouble = myInt;
       // System.out.println(myInt);
       // System.out.println(myDouble);
-      double myDouble = 9.78d;
-      int myInt = (int) myDouble; // Manual casting: double to int
-      System.out.println(myDouble);   // Outputs 9.78
-      System.out.println(myInt);      // Outputs 9
-      int time = 22;
-      if (time <10 ){
-        System.out.println("Good morning.");
+      // double myDouble = 9.78d;
+      // int myInt = (int) myDouble; // Manual casting: double to int
+      // System.out.println(myDouble);   // Outputs 9.78
+      // System.out.println(myInt);      // Outputs 9
+      // int time = 22;
+      // if (time <10 ){
+      //   System.out.println("Good morning.");
 
+      // }
+      //  else if (time < 18){
+      //   System.out.println("Good day");
+      //  }
+      //  else{
+      //   System.out.println("Good evening");
+
+      //  }
+       int time = 20;
+       String result =  (time < 18) ? "Good day." : "Good evening";
+       System.out.println(result);
       }
-       else if (time < 18){
-        System.out.println("Good day");
-       }
-       else{
-        System.out.println("Good evening");
-       }
-    }
 }
