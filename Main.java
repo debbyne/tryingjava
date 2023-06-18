@@ -13,5 +13,16 @@ public class Main {
       int myInt = (int) myDouble; // Manual casting: double to int
       System.out.println(myDouble);   // Outputs 9.78
       System.out.println(myInt);      // Outputs 9
+      int time = 22;
+      if (time <10 ){
+        System.out.println("Good morning.");
+
+      }
+       else if (time < 18){
+        System.out.println("Good day");
+       }
+       else{
+        System.out.println("Good evening");
+       }
     }
 }
